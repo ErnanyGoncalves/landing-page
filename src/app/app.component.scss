@@ -1,0 +1,116 @@
+.category{
+    color: #de9931;
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+.invitation{
+    width: 50%;
+    font-family: url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+    font-size: 1.6em;
+}
+
+.product-name{
+    color: black;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.pricing{
+    border-top: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+}
+
+.stores-box{
+    border: solid 2.5px #de9931;
+    width: 25%;
+}
+
+.image-color{
+    height: 10%;
+    width: 10%;
+}
+.image-brown{
+    height: 10%;
+    width: 10%;
+}
+
+.copyrights{
+    font-size: 0.7em;
+}
+
+// -------------------
+
+hr{
+    border: solid 1px #de9931;
+    opacity: 0.5;
+}
+ul{
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+
+h3 sup{
+    font-size: 0.7em;
+}
+
+p sup{
+    font-size: 0.5em;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #de9931;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #de9931;
+}
+
+.align-center{
+    padding: 25% 0;
+}
+
+// -------------------------
+
+
+$breakpoint-mobile: 576px;
+@media (max-width: $breakpoint-mobile) {
+    .product-name{
+        font-size: 1.5em;
+    }
+    .stores-box{
+        border: solid 2px #de9931;
+        width: 75%;
+    }
+    .image-color{
+        height: 40%;
+        width: 40%;
+    }
+    .image-brown{
+        height: 25%;
+        width: 25%;
+    }
+    .invitation{
+        width:75%;
+        font-size: 1.5em;
+    }
+    .align-center{
+        padding: 5% 0;
+    }
+}
